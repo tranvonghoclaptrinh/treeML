@@ -1,0 +1,231 @@
+{
+  "id": 0,
+  "samples": 1168,
+  "value": 181441.5419520548,
+  "impurity": 5964550379.7705,
+  "leaf": false,
+  "feature": "OverallQual",
+  "threshold": 7.5,
+  "left": {
+    "id": 1,
+    "samples": 984,
+    "value": 158879.15447154472,
+    "impurity": 2363399388.3216667,
+    "leaf": false,
+    "feature": "OverallQual",
+    "threshold": 6.5,
+    "left": {
+      "id": 2,
+      "samples": 726,
+      "value": 142077.6432506887,
+      "impurity": 1447929508.0834732,
+      "leaf": false,
+      "feature": "GrLivArea",
+      "threshold": 1378.5,
+      "left": {
+        "id": 3,
+        "samples": 438,
+        "value": 125810.15753424658,
+        "impurity": 817629555.8130817,
+        "leaf": false,
+        "feature": "TotalBsmtSF",
+        "threshold": 969.5,
+        "left": {
+          "id": 4,
+          "samples": 267,
+          "value": 113133.07116104869,
+          "impurity": 602014648.2234001,
+          "leaf": true
+        },
+        "right": {
+          "id": 5,
+          "samples": 171,
+          "value": 145604.20467836258,
+          "impurity": 511556281.4025459,
+          "leaf": true
+        }
+      },
+      "right": {
+        "id": 6,
+        "samples": 288,
+        "value": 166817.77777777778,
+        "impurity": 1391976644.0339508,
+        "leaf": false,
+        "feature": "OverallQual",
+        "threshold": 5.5,
+        "left": {
+          "id": 7,
+          "samples": 111,
+          "value": 146228.76576576577,
+          "impurity": 1052529541.4946823,
+          "leaf": true
+        },
+        "right": {
+          "id": 8,
+          "samples": 177,
+          "value": 179729.53107344633,
+          "impurity": 1172296633.8422546,
+          "leaf": true
+        }
+      }
+    },
+    "right": {
+      "id": 9,
+      "samples": 258,
+      "value": 206157.82558139536,
+      "impurity": 1909863186.2447739,
+      "leaf": false,
+      "feature": "GrLivArea",
+      "threshold": 2020.0,
+      "left": {
+        "id": 10,
+        "samples": 208,
+        "value": 194671.29326923078,
+        "impurity": 1178883981.1591797,
+        "leaf": false,
+        "feature": "TotalBsmtSF",
+        "threshold": 1469.0,
+        "left": {
+          "id": 11,
+          "samples": 174,
+          "value": 187668.6436781609,
+          "impurity": 907701045.1488953,
+          "leaf": true
+        },
+        "right": {
+          "id": 12,
+          "samples": 34,
+          "value": 230508.38235294117,
+          "impurity": 1031451004.8244019,
+          "leaf": true
+        }
+      },
+      "right": {
+        "id": 13,
+        "samples": 50,
+        "value": 253941.8,
+        "impurity": 2118556302.0,
+        "leaf": false,
+        "feature": "TotalBsmtSF",
+        "threshold": 1191.0,
+        "left": {
+          "id": 14,
+          "samples": 24,
+          "value": 230417.70833333334,
+          "impurity": 844297004.1232605,
+          "leaf": true
+        },
+        "right": {
+          "id": 15,
+          "samples": 26,
+          "value": 275656.3461538461,
+          "impurity": 2312459164.995575,
+          "leaf": true
+        }
+      }
+    }
+  },
+  "right": {
+    "id": 16,
+    "samples": 184,
+    "value": 302101.26630434784,
+    "impurity": 7941739060.01059,
+    "leaf": false,
+    "feature": "OverallQual",
+    "threshold": 8.5,
+    "left": {
+      "id": 17,
+      "samples": 135,
+      "value": 275040.27407407406,
+      "impurity": 4264680062.643402,
+      "leaf": false,
+      "feature": "GrLivArea",
+      "threshold": 1973.0,
+      "left": {
+        "id": 18,
+        "samples": 86,
+        "value": 250999.81395348837,
+        "impurity": 2427550199.87236,
+        "leaf": false,
+        "feature": "TotalBsmtSF",
+        "threshold": 1412.5,
+        "left": {
+          "id": 19,
+          "samples": 33,
+          "value": 220197.60606060605,
+          "impurity": 1277083014.2993622,
+          "leaf": true
+        },
+        "right": {
+          "id": 20,
+          "samples": 53,
+          "value": 270178.5471698113,
+          "impurity": 2185307689.4175873,
+          "leaf": true
+        }
+      },
+      "right": {
+        "id": 21,
+        "samples": 49,
+        "value": 317233.7346938776,
+        "impurity": 4694392107.582657,
+        "leaf": false,
+        "feature": "TotalBsmtSF",
+        "threshold": 1459.5,
+        "left": {
+          "id": 22,
+          "samples": 32,
+          "value": 289795.59375,
+          "impurity": 2531817466.803711,
+          "leaf": true
+        },
+        "right": {
+          "id": 23,
+          "samples": 17,
+          "value": 368882.0,
+          "impurity": 4680445151.058838,
+          "leaf": true
+        }
+      }
+    },
+    "right": {
+      "id": 24,
+      "samples": 49,
+      "value": 376657.0612244898,
+      "impurity": 10496291464.628876,
+      "leaf": false,
+      "feature": "GarageCars",
+      "threshold": 2.5,
+      "left": {
+        "id": 25,
+        "samples": 8,
+        "value": 280162.5,
+        "impurity": 3039532343.75,
+        "leaf": true
+      },
+      "right": {
+        "id": 26,
+        "samples": 41,
+        "value": 395485.26829268294,
+        "impurity": 9779947892.976807,
+        "leaf": false,
+        "feature": "GrLivArea",
+        "threshold": 2690.5,
+        "left": {
+          "id": 27,
+          "samples": 33,
+          "value": 370721.1515151515,
+          "impurity": 3263840355.1588745,
+          "leaf": true
+        },
+        "right": {
+          "id": 28,
+          "samples": 8,
+          "value": 497637.25,
+          "impurity": 23694160515.6875,
+          "leaf": true
+        }
+      }
+    }
+  }
+}

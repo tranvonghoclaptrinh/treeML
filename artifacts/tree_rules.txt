@@ -1,0 +1,43 @@
+|--- OverallQual (chất lượng) <= 8
+|   |--- OverallQual (chất lượng) <= 6
+|   |   |--- GrLivArea (diện tích ở) <= 1378
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) <= 970
+|   |   |   |   |--- value: [113133]
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) >  970
+|   |   |   |   |--- value: [145604]
+|   |   |--- GrLivArea (diện tích ở) >  1378
+|   |   |   |--- OverallQual (chất lượng) <= 6
+|   |   |   |   |--- value: [146229]
+|   |   |   |--- OverallQual (chất lượng) >  6
+|   |   |   |   |--- value: [179730]
+|   |--- OverallQual (chất lượng) >  6
+|   |   |--- GrLivArea (diện tích ở) <= 2020
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) <= 1469
+|   |   |   |   |--- value: [187669]
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) >  1469
+|   |   |   |   |--- value: [230508]
+|   |   |--- GrLivArea (diện tích ở) >  2020
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) <= 1191
+|   |   |   |   |--- value: [230418]
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) >  1191
+|   |   |   |   |--- value: [275656]
+|--- OverallQual (chất lượng) >  8
+|   |--- OverallQual (chất lượng) <= 8
+|   |   |--- GrLivArea (diện tích ở) <= 1973
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) <= 1412
+|   |   |   |   |--- value: [220198]
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) >  1412
+|   |   |   |   |--- value: [270179]
+|   |   |--- GrLivArea (diện tích ở) >  1973
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) <= 1460
+|   |   |   |   |--- value: [289796]
+|   |   |   |--- TotalBsmtSF (diện tích tầng hầm) >  1460
+|   |   |   |   |--- value: [368882]
+|   |--- OverallQual (chất lượng) >  8
+|   |   |--- GarageCars (chỗ gara) <= 2
+|   |   |   |--- value: [280162]
+|   |   |--- GarageCars (chỗ gara) >  2
+|   |   |   |--- GrLivArea (diện tích ở) <= 2690
+|   |   |   |   |--- value: [370721]
+|   |   |   |--- GrLivArea (diện tích ở) >  2690
+|   |   |   |   |--- value: [497637]

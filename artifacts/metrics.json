@@ -1,0 +1,42 @@
+{
+  "model": "Decision Tree Regression",
+  "target": "SalePrice",
+  "features": [
+    "OverallQual",
+    "GrLivArea",
+    "YearBuilt",
+    "GarageCars",
+    "TotalBsmtSF",
+    "FullBath"
+  ],
+  "feature_labels": {
+    "OverallQual": "OverallQual (chất lượng)",
+    "GrLivArea": "GrLivArea (diện tích ở)",
+    "YearBuilt": "YearBuilt (năm xây dựng)",
+    "GarageCars": "GarageCars (chỗ gara)",
+    "TotalBsmtSF": "TotalBsmtSF (diện tích tầng hầm)",
+    "FullBath": "FullBath (phòng tắm đầy đủ)"
+  },
+  "seed": 42,
+  "test_size": 0.2,
+  "train_rows": 1168,
+  "test_rows": 292,
+  "source_rows": 1460,
+  "source_columns": 81,
+  "missing_before_selected": 0,
+  "missing_after_selected": 0,
+  "max_depth": 4,
+  "node_count": 29,
+  "leaf_count": 15,
+  "train_seconds": 0.0903,
+  "train": {
+    "MAE": 25336.24,
+    "RMSE": 35669.53,
+    "R2": 0.7867
+  },
+  "test": {
+    "MAE": 27604.64,
+    "RMSE": 40225.96,
+    "R2": 0.789
+  }
+}
