@@ -42,6 +42,10 @@ cp artifacts/decision_tree.png artifacts/actual_vs_predicted.png web/artifacts/
 
 ## GitHub Pages
 
-Repo có workflow tại `.github/workflows/pages.yml`. Sau khi push, vào **Settings → Pages**, chọn **GitHub Actions** nếu GitHub chưa tự chọn. Trang sẽ đọc các artifacts tĩnh đã commit trong `web/artifacts`.
+Repo được cấu hình GitHub Pages từ nhánh `main`, thư mục gốc `/`. Các file `index.html`, `style.css`, `app.js` ở thư mục gốc dùng cùng artifacts trong `artifacts/`. Trang public hiện tại:
+
+`https://tranvonghoclaptrinh.github.io/treeML/`
+
+Thư mục `web/` giữ bản giao diện tĩnh tương đương để chạy cục bộ hoặc đổi sang cấu hình `/docs` khi cần.
 
 > Đây là demo học thuật. Giá dự đoán không thay thế thẩm định giá bất động sản chuyên nghiệp.
